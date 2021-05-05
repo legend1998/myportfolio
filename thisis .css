@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  background: linear-gradient(
+      -30deg,
+      rgba(0, 0, 0, 0.685),
+      rgba(0, 255, 0, 0.603)
+    ),
+    url("https://picsum.photos/1200/700");
+  background-position: center;
+  transition: 200ms;
+  background-size: cover;
+}
+
+.ldBar-label {
+  color: white;
+  font-family: "varela round";
+  font-size: 20px;
+}
+.ldBar path.mainline {
+  stroke-width: 10;
+  stroke: rgb(0, 255, 221);
+  stroke-linecap: round;
+}
+.ldBar path.mainline {
+  stroke-width: 5;
+}
+/* .ldBar path.baseline {
+    stroke-width: 14;
+    stroke: #f1f2f3;
+    stroke-linecap: round;
+    filter: url(#custom-shadow);
+  } */
+
+.ser-imagea {
+  background: url(./icons.png) no-repeat -1px -339px;
+  width: 190px;
+  height: 190px;
+  display: block;
+  margin: 0 auto;
+}
+.ser-imageb {
+  background: url(./icons.png) no-repeat -390px -150px;
+  width: 190px;
+  height: 190px;
+  display: block;
+  margin: 0 auto;
+}
+.ser-imagec {
+  background: url(./icons.png) no-repeat -195px -149px;
+  width: 190px;
+  height: 190px;
+  display: block;
+  margin: 0 auto;
+}
+.ser-imaged {
+  background: url(./icons.png) no-repeat -1px -143px;
+  width: 190px;
+  height: 190px;
+  display: block;
+  margin: 0 auto;
+}
